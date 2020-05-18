@@ -1,5 +1,3 @@
-
-
 header {
 	background-color: hsl(180, 90%, 35%);
 	color: #FFFFFF;
@@ -34,9 +32,9 @@ nav li {
 
 .nav-link {
 	color: white;
-	border-style: solid;
-	margin: 0px;
+	margin: 0px auto auto auto;
 	display: inline;
+
 }
 
 
