@@ -5,7 +5,10 @@ from .models import Project
 
 def index(request):
 	projects = Project.objects.all()
-	context = {'projects': projects}
+	project = projects[0]
+	context = {'projects': projects, 
+				'project' : project
+				}
 	return render(request, 'post/index.html', context)
 
 
