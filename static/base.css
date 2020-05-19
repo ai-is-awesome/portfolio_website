@@ -38,6 +38,51 @@ nav li {
 }
 
 
+.detail-card {
+	border-style: solid;
+	border-radius: 20px;
+	/*width: 90%;
+	height: 90%;*/
+	background: linear-gradient(45deg, #CCFFFF, #FFCCCC)
+
+}
+
+.detail-card-title {
+	padding: 20px;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.detail-card-contents {
+	margin: auto;
+	font-family: monospace;
+	font-size: 20px;
+	padding: 70px 10px 10px 100px
+}
 
 
+
+.btn-primary:hover {
+	background-color: darkblue;
+}
+
+
+
+.project-detail-title {
+	margin: 50px 2px 45px 20px;
+	width: 95%;
+	
+}
+
+
+
+
+.title-box {
+	margin: 50px 0px 50px 0px;
+	padding: 2px;
+	background-color: hsl(180, 80%, 15%);
+	color: white;
+
+}
 
