@@ -16,3 +16,10 @@ def project_detail(request, pk):
 	context = {'project' : project}
 	return render(request, 'post/project_detail.html', context)
 
+
+
+
+def about(request):
+	context = {}
+
+	return render(request, 'post/about.html', context)
